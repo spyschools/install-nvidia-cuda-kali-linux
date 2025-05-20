@@ -10,9 +10,12 @@ Or fallback
 # sudo apt install linux-headers-amd64
 
 If you still encounter errors after this step, I can help debug from the output of uname -r and apt policy linux-headers-$(uname -r)
-# chmod +x install-nvidia-cuda-kali-2025.sh
-# chmod +x install-nvidia-cuda-kali-2025-part2.sh
+# git clone install-nvidia-cuda-kali-linux.git 
+# cd install-nvidia-cuda-kali-linux
+# chmod +x install-nvidia-cuda-kali-linux.sh
+# chmod +x install-nvidia-cuda-kali-linux-part2.sh
 
-# ./install-nvidia-cuda-kali-2025.sh
+./install-nvidia-cuda-kali-linux.sh
 # (After reboot)
-# ./install-nvidia-cuda-kali-2025-part2.sh
+./install-nvidia-cuda-kali-linux-part2.sh
+
